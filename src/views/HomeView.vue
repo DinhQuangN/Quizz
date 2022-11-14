@@ -201,9 +201,7 @@ export default defineComponent({
 			this.endOfQuiz = true;
 		}
 	},
-	mounted() {
-		this.timer === 0;
-	},
+	mounted() {},
 	watch: {},
 	components: { Loading, QuizCompleteOverlay }
 });
